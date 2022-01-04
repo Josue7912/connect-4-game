@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(248, 224, 170);
+}
+
+
+#heading {
+    color: rgb(209, 69, 18);
+    font-size: 45px;
+    font-family:fantasy;
+}
+
+h2 {
+    font-size:2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 3*3 Grid */
+#a1, #a2, #a3, #a4, #a5,
+#a6, #a7, #a8, #a9, #a10,
+#a11, #a12, #a13, #a14, #a15,
+#a16, #a17, #a18, #a19, #a20 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 8px solid rgb(184, 184, 184);
+    border-radius: 80px;
+    border-style: solid;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Reset Button */
+#reset {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid rgb(255, 83, 30);
+    margin: auto;
+    border-radius: 8px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(255, 83, 30);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Player turn space */
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+/* Main Container */
+#main {
+    text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: rgb(14, 14, 14);
+    font-size: 14px;
+}
+
+/* Player X */
+#player-x {
+    color:blue;
+}
+
+/* Player O */
+#player-0 {
+    color:rgba(162, 37, 220, 0.83);
+}

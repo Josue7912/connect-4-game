@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="connect4.css">
+	<script src="connect4.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<h1 id="heading">CONNECT 4</h1>
+
+        <h2>Instructions</h2>
+
+        <p id="ins">Game starts by just Tap on box
+            <br>
+            <br>
+            First Player starts as <i><b id="player-x">Player X</b></i>
+            <br>
+            <br>
+            Second Player as <i><b id="player-0">Player 0</b></i>
+			<br>
+            <br>
+			A Player wins when it connects 4 cells in a row.
+		</p>
+
+		<br><br>
+
+        <!-- 3*3 grid of Boxes -->
+
+		<input type="text" id="a1" onclick=
+			"myfunc_3(); myfunc();" readonly>
+
+		<input type="text" id="a2" onclick=
+			"myfunc_4(); myfunc();" readonly>
+
+		<input type="text" id="a3" onclick=
+			"myfunc_5(); myfunc();" readonly>
+
+		<input type="text" id="a4" onclick=
+			"myfunc_6(); myfunc();" readonly>
+
+		<input type="text" id="a5" onclick=
+			"myfunc_7(); myfunc();" readonly>
+
+		<br><br>
+
+		<input type="text" id="a6" onclick=
+			"myfunc_8(); myfunc();" readonly>
+
+		<input type="text" id="a7" onclick=
+			"myfunc_9(); myfunc();" readonly>
+
+		<input type="text" id="a8" onclick=
+			"myfunc_10();myfunc();" readonly>
+
+		<input type="text" id="a9" onclick=
+			"myfunc_11();myfunc();" readonly>
+
+		<input type="text" id="a10" onclick=
+			"myfunc_12();myfunc();" readonly>
+
+		<br><br>
+
+		<input type="text" id="a11" onclick=
+			"myfunc_13();myfunc();" readonly>
+
+		<input type="text" id="a12" onclick=
+			"myfunc_14();myfunc();" readonly>
+
+		<input type="text" id="a13" onclick=
+			"myfunc_15();myfunc();" readonly>
+
+		<input type="text" id="a14" onclick=
+			"myfunc_16();myfunc();" readonly>
+
+		<input type="text" id="a15" onclick=
+			"myfunc_17();myfunc();" readonly>
+
+		<br><br>
+
+		<input type="text" id="a16" onclick=
+			"myfunc_18();myfunc();" readonly>
+
+		<input type="text" id="a17" onclick=
+			"myfunc_19();myfunc();" readonly>
+
+		<input type="text" id="a18" onclick=
+			"myfunc_20();myfunc();" readonly>
+
+		<input type="text" id="a19" onclick=
+			"myfunc_21();myfunc();" readonly>
+
+		<input type="text" id="a20" onclick=
+			"myfunc_22();myfunc();" readonly>
+
+
+		<br>
+        <br>
+        <br>
+
+        <button id="reset" onclick="myfunc_2()">RESET</button>
+
+		<br><br>
+
+        <!-- Space to show player turn -->
+		<p id="print"></p>
+
+	</div>
+</body>
+
+</html>

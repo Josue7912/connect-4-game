@@ -1,5 +1,5 @@
 // Function called whenever user tab on any box
-function myfunc() {
+function connectGame() {
 
 	// Setting DOM to all boxes or input field
 	let a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11,
@@ -349,7 +349,7 @@ function myfunc() {
 }
 
 // Function to reset game
-function myfunc_2() {
+function resetGame() {
 	location.reload();
 	document.getElementById('a1').value = '';
 	document.getElementById("a2").value = '';
@@ -376,7 +376,7 @@ function myfunc_2() {
 // Here onwards, functions check turn of the player
 // and put accordingly value X or 0
 flag = 1;
-function myfunc_3() {
+function playCellA1() {
 	if (flag == 1) {
 		document.getElementById("a1").value = "X";
 		document.getElementById("a1").disabled = true;
@@ -389,7 +389,7 @@ function myfunc_3() {
 	}
 }
 
-function myfunc_4() {
+function playCellA2() {
 	if (flag == 1) {
 		document.getElementById("a2").value = "X";
 		document.getElementById("a2").disabled = true;
@@ -402,7 +402,7 @@ function myfunc_4() {
 	}
 }
 
-function myfunc_5() {
+function playCellA3() {
 	if (flag == 1) {
 		document.getElementById("a3").value = "X";
 		document.getElementById("a3").disabled = true;
@@ -415,7 +415,7 @@ function myfunc_5() {
 	}
 }
 
-function myfunc_6() {
+function playCellA4() {
 	if (flag == 1) {
 		document.getElementById("a4").value = "X";
 		document.getElementById("a4").disabled = true;
@@ -428,7 +428,7 @@ function myfunc_6() {
 	}
 }
 
-function myfunc_7() {
+function playCellA5() {
 	if (flag == 1) {
 		document.getElementById("a5").value = "X";
 		document.getElementById("a5").disabled = true;
@@ -441,7 +441,7 @@ function myfunc_7() {
 	}
 }
 
-function myfunc_8() {
+function playCellA6() {
 	if (flag == 1) {
 		document.getElementById("a6").value = "X";
 		document.getElementById("a6").disabled = true;
@@ -454,7 +454,7 @@ function myfunc_8() {
 	}
 }
 
-function myfunc_9() {
+function playCellA7() {
 	if (flag == 1) {
 		document.getElementById("a7").value = "X";
 		document.getElementById("a7").disabled = true;
@@ -467,7 +467,7 @@ function myfunc_9() {
 	}
 }
 
-function myfunc_10() {
+function playCellA8() {
 	if (flag == 1) {
 		document.getElementById("a8").value = "X";
 		document.getElementById("a8").disabled = true;
@@ -480,7 +480,7 @@ function myfunc_10() {
 	}
 }
 
-function myfunc_11() {
+function playCellA9() {
 	if (flag == 1) {
 		document.getElementById("a9").value = "X";
 		document.getElementById("a9").disabled = true;
@@ -493,7 +493,7 @@ function myfunc_11() {
 	}
 }
 
-function myfunc_12() {
+function playCellA10() {
 	if (flag == 1) {
 		document.getElementById("a10").value = "X";
 		document.getElementById("a10").disabled = true;
@@ -506,7 +506,7 @@ function myfunc_12() {
 	}
 }
 
-function myfunc_13() {
+function playCellA11() {
 	if (flag == 1) {
 		document.getElementById("a11").value = "X";
 		document.getElementById("a11").disabled = true;
@@ -519,7 +519,7 @@ function myfunc_13() {
 	}
 }
 
-function myfunc_14() {
+function playCellA12() {
 	if (flag == 1) {
 		document.getElementById("a12").value = "X";
 		document.getElementById("a12").disabled = true;
@@ -532,7 +532,7 @@ function myfunc_14() {
 	}
 }
 
-function myfunc_15() {
+function playCellA13() {
 	if (flag == 1) {
 		document.getElementById("a13").value = "X";
 		document.getElementById("a13").disabled = true;
@@ -545,7 +545,7 @@ function myfunc_15() {
 	}
 }
 
-function myfunc_16() {
+function playCellA14() {
 	if (flag == 1) {
 		document.getElementById("a14").value = "X";
 		document.getElementById("a14").disabled = true;
@@ -558,7 +558,7 @@ function myfunc_16() {
 	}
 }
 
-function myfunc_17() {
+function playCellA15() {
 	if (flag == 1) {
 		document.getElementById("a15").value = "X";
 		document.getElementById("a15").disabled = true;
@@ -571,7 +571,7 @@ function myfunc_17() {
 	}
 }
 
-function myfunc_18() {
+function playCellA16() {
 	if (flag == 1) {
 		document.getElementById("a16").value = "X";
 		document.getElementById("a16").disabled = true;
@@ -584,7 +584,7 @@ function myfunc_18() {
 	}
 }
 
-function myfunc_19() {
+function playCellA17() {
 	if (flag == 1) {
 		document.getElementById("a17").value = "X";
 		document.getElementById("a17").disabled = true;
@@ -597,7 +597,7 @@ function myfunc_19() {
 	}
 }
 
-function myfunc_20() {
+function playCellA18() {
 	if (flag == 1) {
 		document.getElementById("a18").value = "X";
 		document.getElementById("a18").disabled = true;
@@ -610,7 +610,7 @@ function myfunc_20() {
 	}
 }
 
-function myfunc_21() {
+function playCellA19() {
 	if (flag == 1) {
 		document.getElementById("a19").value = "X";
 		document.getElementById("a19").disabled = true;
@@ -623,7 +623,7 @@ function myfunc_21() {
 	}
 }
 
-function myfunc_22() {
+function playCellA20() {
 	if (flag == 1) {
 		document.getElementById("a20").value = "X";
 		document.getElementById("a20").disabled = true;
